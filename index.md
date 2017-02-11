@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Islamic Center of San Diego
 
 You can use the [editor on GitHub](https://github.com/caretapps/icsd/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
