@@ -18,6 +18,9 @@ body {
     display: block;
     padding-left: .5rem;
 }
+#prayer-time{
+    justify-content: space-around;
+}
 .salah {
     padding: .5em;
     font-size: 10px;
