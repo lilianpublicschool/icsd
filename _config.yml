@@ -1,1 +1,24 @@
-theme: jekyll-theme-minimal
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Islamic Center Of San Diego
+tagline:          'Build a stronger religious community'
+url:              https://caretapps.github.io
+baseurl:          /icsd/
+
+author:
+  name:           'ICSD Webmaster'
+  url:            http://icsd.org
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/caretapps/icsd
