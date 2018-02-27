@@ -1,13 +1,12 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            Islamic Center Of San Diego
-tagline:          'Build a stronger religious community'
+tagline:          'Building Strong Community'
 url:              https://caretapps.github.io
 baseurl:          /icsd/
 
