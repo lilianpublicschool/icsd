@@ -4,10 +4,15 @@ body {
   /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Noto Sans', sans-serif;
   /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-size: 0.85rem;
 }
 #feature-box{
-  min-height: 400px;
+  min-height: 420px;
 }
+#feature-box:before {
+     background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+     opacity: .6;
+ }
 .dropdown-menu{
   top: 115%;
   border-radius: 0px;
@@ -23,11 +28,34 @@ button:focus{
     display: block;
     padding-left: .5rem;
 }
+.form-control{
+    border-width: 1px;
+    border-radius: 0px;
+    font-size: .85rem;
+}
+.btn{
+    border-radius: 0px;
+}
+.btn-success{
+    background-color: #03a87c;
+    border-color: #03a87c;
+}
 .salah {
     padding: 1em;
-    font-size: 75%;
+}
+.text-normal{
+    font-size: 1rem;
+}
+.text-small{
+    font-size: .85rem;
+}
+.text-smaller{
+    font-size: .75rem;
 }
 
+.lh-200{
+    line-height:2em;
+}
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
