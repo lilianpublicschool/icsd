@@ -2,17 +2,14 @@ body {
   padding-top: 0px;
   /* font-family: 'Montserrat', sans-serif; */
   /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Noto Sans', sans-serif;
+  /*font-family: 'Noto Sans', sans-serif;*/
   /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
     font-size: 0.85rem;
 }
 #feature-box{
   min-height: 420px;
 }
-#feature-box:before {
-     background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-     opacity: .6;
- }
 .dropdown-menu{
   top: 115%;
   border-radius: 0px;
@@ -43,14 +40,20 @@ button:focus{
 .salah {
     padding: 1em;
 }
-.text-normal{
+.font-normal{
     font-size: 1rem;
 }
-.text-small{
+.font-small{
     font-size: .85rem;
 }
-.text-smaller{
+.font-smaller{
     font-size: .75rem;
+}
+.font-large{
+    font-size: 1.5rem;
+}
+.font-larger{
+    font-size: 2rem;
 }
 
 .lh-200{
@@ -82,5 +85,8 @@ button:focus{
         top: 70px;
         background: var(--light);
         z-index: 1;
+    }
+    #feature-box{
+        min-height: 360px;
     }
 }
