@@ -9,7 +9,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media (max-width: 767.98px) {
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
     top: 56px; /* Height of navbar */
