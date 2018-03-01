@@ -1,5 +1,5 @@
 body {
-  padding-top: 0px;
+  padding-top: 70px;
   /* font-family: 'Montserrat', sans-serif; */
   /*font-family: 'Open Sans', sans-serif;*/
   /*font-family: 'Noto Sans', sans-serif;*/
@@ -12,7 +12,7 @@ p{
     color: #737373;
     letter-spacing: .2px;
 }
-.event-date{
+.event-day{
     font-size: 1.5rem;
     color: #03a87c;
     margin-top: -7.5px
@@ -20,6 +20,7 @@ p{
 .event-month{
     letter-spacing: 2px;
     margin-top:-7.5px;
+    text-transform: uppercase;
 }
 .la{
     color: #03a87c;
