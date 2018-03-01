@@ -1,87 +1,113 @@
 body {
-  padding-top: 70px;
-  /* font-family: 'Montserrat', sans-serif; */
-  /*font-family: 'Open Sans', sans-serif;*/
-  /*font-family: 'Noto Sans', sans-serif;*/
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+    /* font-family: 'Montserrat', sans-serif; */
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Noto Sans', sans-serif;*/
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 0.85rem;
+    letter-spacing: .025rem;
 }
-p{
+
+p {
     color: #737373;
-    letter-spacing: .2px;
 }
-.event-day{
+
+u {
+    text-decoration: none;
+    border-bottom:1px dotted;
+}
+
+.event-day {
     font-size: 1.5rem;
     color: #03a87c;
     margin-top: -7.5px
 }
-.event-month{
+
+.event-month {
     letter-spacing: 2px;
-    margin-top:-7.5px;
+    margin-top: -7.5px;
     text-transform: uppercase;
 }
-.la{
+
+.la {
     color: #03a87c;
     margin-top: 2px;
 }
-#feature-box{
-  min-height: 420px;
+
+#feature-box {
+    min-height: 420px;
 }
-.dropdown-menu{
-  top: 115%;
-  border-radius: 0px;
+
+.dropdown-menu {
+    top: 115%;
+    border-radius: 0px;
 }
-button:focus{
+
+button:focus {
     outline: 0px;
 }
+
 .nav-item {
     font-size: .875rem;
     color: var(--secondary);
 }
+
 .nav-item {
     display: block;
     padding-left: .5rem;
 }
-.form-control{
+
+.form-control {
     border-width: 1px;
     border-radius: 0px;
     font-size: .85rem;
 }
-.btn{
+
+.btn {
     border-radius: 0px;
 }
-.btn-success{
+
+.btn-success {
     background-color: #03a87c;
     border-color: #03a87c;
 }
+
 .salah {
     padding: 1em;
 }
-.font-normal{
+
+.font-normal {
     font-size: 1rem;
 }
-.font-small{
+
+.font-small {
     font-size: .85rem;
 }
-.font-smaller{
+
+.font-smaller {
     font-size: .75rem;
 }
-.font-large{
+
+.font-large {
     font-size: 1.5rem;
 }
-.font-larger{
+
+.font-larger {
     font-size: 2rem;
 }
 
-.lh-200{
-    line-height:2em;
+.lh-200 {
+    line-height: 2em;
 }
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
 
 .video-container iframe,
@@ -99,13 +125,15 @@ button:focus{
         padding: .5em;
         font-size: 10px;
     }
+
     .offcanvas-collapse {
         padding-top: 1.5em;
         top: 70px;
         background: var(--light);
         z-index: 1;
     }
-    #feature-box{
+
+    #feature-box {
         min-height: 360px;
     }
 }

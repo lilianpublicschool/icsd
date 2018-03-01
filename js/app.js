@@ -10,7 +10,7 @@ $(function () {
         // url: "https://www.googleapis.com/calendar/v3/calendars/sisni95sgv8ifcq5su0d8j4khs%40group.calendar.google.com/events?maxResults=25&orderBy=startTime&singleEvents=true&timeMin=2018-02-16T10%3A00%3A00-07%3A00&fields=description%2Citems(colorId%2Ccreator(displayName%2Cself)%2Cdescription%2Cend%2FdateTime%2CendTimeUnspecified%2Cetag%2Cid%2Clocation%2Corganizer%2FdisplayName%2Crecurrence%2Csource%2Cstart%2FdateTime%2Cstatus%2Csummary)%2Csummary&key=AIzaSyDzV4tcu-80oWSp0MsR5r2CFD1i6PgSTys",
         url: "https://www.googleapis.com/calendar/v3/calendars/" + GOOGLE_CALENDAR_ID + "/events",
         data: {
-            maxResults: 10,
+            maxResults: 7,
             orderBy: 'startTime',
             singleEvents: true,
             timeMin: new Date().toISOString(),
@@ -24,9 +24,9 @@ $(function () {
                 if(dataArray[i]["start"]["dateTime"]){
                     eventStartDateTime = moment(dataArray[i]["start"]["dateTime"]);
                     if(dataArray[i]["end"]["date"]){
-                        eventTime = moment(dataArray[i]["end"]["dateTime"]).format('hh:mm a') + " - " + moment().format('hh:mm a');
+                        eventTime = eventStartDateTime.format('hh:mm a') + " - " + moment(dataArray[i]["end"]["dateTime"]).format('hh:mm a');
                     } else {
-                        eventTime = moment(dataArray[i]["end"]["dateTime"]).format('hh:mm a');
+                        eventTime = eventStartDateTime.format('hh:mm a');
                     }
                 } else {
                     eventStartDateTime = moment(dataArray[i]["start"]["date"]);
