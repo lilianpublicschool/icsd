@@ -40,9 +40,14 @@ u {
     min-height: 420px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #212529;
+}
+
 .dropdown-menu {
-    top: 115%;
-    border-radius: 0px;
+    top: 136%;
+    border: none;
+    font-weight: inherit;
 }
 
 button:focus {
